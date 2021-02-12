@@ -12,7 +12,7 @@ guest_list = ['Richard Feynman', 'Elon Musk', 'Steve Jobs', 'Alan Turing', 'Isaa
 
 print("My new table won't arrive at time so I can invite only two people for my dinner.\n")
 
-#popping guests
+#Popping guests
 guest_popped = guest_list.pop(0)
 print("Sorry Mr. " + guest_popped + " I can't invite you to dinner anymore.\n")
 guest_popped = guest_list.pop(1)
@@ -29,6 +29,6 @@ print("Mr. " + guest_list[0] + " and " + guest_list[1] + " you're still invited 
 del(guest_list[0])
 del(guest_list[0])
 
-#print empty list.
+#Print empty list.
 print(guest_list)
 

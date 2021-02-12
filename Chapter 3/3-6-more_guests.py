@@ -12,12 +12,12 @@ guest_list = ['Elon Musk', 'Steve Jobs', 'Isaac Newton', 'Nikola Tesla']
 
 print("Mrs " + guest_list[0] + ", " + guest_list[1] + ", " + guest_list[2] + "and" + guest_list[3] + " we found a bigger table.\n")
 
+#Adding new guests
 guest_list.insert(0, 'Richard Feynman')
-
 guest_list.insert(3, 'Alan Turing')
-
 guest_list.append('Leonardo da Vinci')
 
+#Inviting to dinner
 print("Hello Mr. " + guest_list[0] + " would you like to join me for dinner?")
 print("Hello Mr. " + guest_list[3] + " would you like to join me for dinner?")
 print("Hello Mr. " + guest_list[6] + " would you like to join me for dinner?")
