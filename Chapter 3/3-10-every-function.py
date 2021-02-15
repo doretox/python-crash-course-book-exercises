@@ -20,5 +20,5 @@ print(sorted(languages))
 languages.reverse()
 print(languages)
 
-#printing the length of the list
+#printing the length of the list 
 print("The length of the list is: " + str(len(languages)) + " itens.")
