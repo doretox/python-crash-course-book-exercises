@@ -35,6 +35,3 @@ print(list)
 print("Is 4 in the list? " + str(4 in list) + "\n")
 
 print("Is 6 not in the list? " + str(6 not in list) + "\n")
-
-
-
