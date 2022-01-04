@@ -60,4 +60,3 @@ print("\n")
 #reseting the number of attempts
 mark.reset_login_attempts()
 mark.print_login_attempts()
-
