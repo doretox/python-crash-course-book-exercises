@@ -20,7 +20,8 @@ class IceCreamStand(Restaurant):
     """A class to model a specific kind of restaurant."""
     
     def __init__(self, restaurant_name, cuisine_type):
-        """Initialize attributes of the parent class. Then initialize attributes specific to an Ice Cream Stand."""
+        super().__init__(restaurant_name, cuisine_type)
+        """Initialize attributes of the parent class. Then initialize attributes specific to an Ice Cream Stand.""" 
         self.flavors = ['vanilla', 'chocolate', 'strawberry']
 
     def display_flavors(self):
