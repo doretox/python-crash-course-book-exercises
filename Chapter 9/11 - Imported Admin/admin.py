@@ -1,9 +1,3 @@
-# 9-7. Admin: An administrator is a special kind of user. Write a class called 
-# Admin that inherits from the User class you wrote in Exercise 9-3 (page 166) 
-# or Exercise 9-5 (page 171). Add an attribute, privileges, that stores a list 
-# of strings like "can add post", "can delete post", "can ban user", and so on.
-# Write a method called show_privileges() that lists the administrator’s set #of privileges. Create an instance of Admin, and call your method.
-
 class User():
     """A class to descrite a generic user."""
     
@@ -37,6 +31,3 @@ class Admin(User):
     def show_privileges(self):
         """Print user's privileges."""
         print("The user " + self.username + " has the following privileges: " + str(self.privileges))
-
-jax = Admin('jax', 'teller', 'jteller', 'jteller@email.com', 'charming')
-jax.show_privileges()
