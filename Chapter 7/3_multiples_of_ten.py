@@ -1,5 +1,7 @@
-# 7-3. Multiples of Ten: Ask the user for a number, and then report whether the
-# number is a multiple of 10 or not.
+"""
+7-3. Multiples of Ten: Ask the user for a number, and then report whether the
+number is a multiple of 10 or not.
+"""
 
 number = input("Enter a number and I'll check if it is a multiple of 10: ")
 
